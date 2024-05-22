@@ -20,7 +20,7 @@ Download my sis-front-end project and copy the files and directories into the ap
 
 ## Usage
 
-from the created project directory (sis-fron-end) enter the following command:
+from the created project directory (sis-front-end) enter the following command:
 >npm start
 
 This should launch a browser pointed to the application.  The application should start on port 3000 so please make sure that port is not in use
