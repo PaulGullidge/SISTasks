@@ -13,7 +13,7 @@ Vesion 20.12.2
 
 ## Installation 
 
-Created a new project using the following command:
+Create a new project using the following command:
 > npx create-react-app sis-front-end
 
 Download my sis-front-end project into a seperate folder and copy the src directory into the root folder of the project that you created (the files in my src directory should be added to the files in the project''s src directory).
