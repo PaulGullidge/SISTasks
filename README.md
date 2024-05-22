@@ -47,7 +47,7 @@ or possibly there is a bug introduced as I did try several ways to force it but 
 away from this piece of work and will look at it after submitting this.
 
 Function: Add a retrospective  
-Request type: Post  
+Request type: ##Post##  
 URL: [http://localhost:8080/v1/retrospective](http://localhost:8080/v1/retrospective)  
 Body:  
 	{
@@ -59,7 +59,7 @@ Body:
 	}
 
 Function: Add some feedback.  Note that the feedback type has to be in uppercase.  
-Request type: Post  
+Request type: ##Post##  
 URL: [http://localhost:8080/v1/retrospective/feedback/Postman2](http://localhost:8080/v1/retrospective/feedback/Postman2)  
 Body:  
 	{
@@ -69,16 +69,15 @@ Body:
 	}
 
 Function: Get the first page of a list of retrospectives with a maximum of 10 items per page  
-Request type: Get  
+Request type: ##Get##  
 URL: [http://localhost:8080/v1/retrospective/1/10](http://localhost:8080/v1/retrospective/1/10)  
 
 Function: Get the first page of a list of retrospectives with the specified date with a maximum of 10 items per page  
-Request type: Get  
+Request type: ##Get##  
 URL: [http://localhost:8080/v1/retrospective/datesearch/1/10?retrospectiveDate=1/1/2024](http://localhost:8080/v1/retrospective/datesearch/1/10?retrospectiveDate=1/1/2024)  
 
-Function: Update some feedback.  Note that the feedback type has to be in uppercase. Also note that if the name is  
-supplied it must match the name already associated to the feedback  
-Request type: Put  
+Function: Update some feedback.  Note that the feedback type has to be in uppercase. Also note that if the name is supplied it must match the name already associated to the feedback  
+Request type: ##Put##  
 URL: [http://localhost:8080/v1/retrospective/feedback/Postman2](http://localhost:8080/v1/retrospective/feedback/Postman2)  
 Body:  
 	{
