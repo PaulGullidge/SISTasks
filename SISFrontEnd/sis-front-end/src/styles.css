@@ -1,0 +1,29 @@
+.app {
+  text-align: center;
+}
+
+.product-form, .filter {
+  margin: 20px;
+}
+
+.product-form table {
+  border: 1px solid #D6EEEE;
+}
+
+.product-form table td {
+  padding: 5px;
+}
+
+.product-item {
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+}
+
+.product-item table th {
+  background-color: #D6EEEE;
+}
+
+.product-item.special {
+  color: purple;
+}
